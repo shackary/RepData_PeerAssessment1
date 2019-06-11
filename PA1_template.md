@@ -124,7 +124,7 @@ for(row in 1:nrow(activity2)){
 }
 ```
   
-*4. Make a histogram of the total number of steps taken each day and Calculate and report the mean and median total number of steps taken per day. *  
+*4. Make a histogram of the total number of steps taken each day and Calculate and report the mean and median total number of steps taken per day.*    
   
 
 ```r

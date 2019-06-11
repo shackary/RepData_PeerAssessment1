@@ -433,7 +433,7 @@ for(row in 1:nrow(activity2)){
         activity2$steps[row] &lt;- interval$`mean(steps, na.rm = TRUE)`[interval$interval == activity2$interval[row]]
     }
 }</code></pre>
-<p><em>4. Make a histogram of the total number of steps taken each day and Calculate and report the mean and median total number of steps taken per day. </em></p>
+<p><em>4. Make a histogram of the total number of steps taken each day and Calculate and report the mean and median total number of steps taken per day.</em></p>
 <pre class="r"><code>library(dplyr)
 ac_groups2 &lt;- group_by(activity2, date)
 steps_day2 &lt;- summarize(ac_groups2, sum(steps))
